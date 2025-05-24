@@ -1,14 +1,11 @@
-# Lab 14: The Game of Go
+# The Game of Go
 
-# Haskell and Rust
+This project is a graphical Go game engine built in [Rust](https://www.rust-lang.org/) using the [Iced.rs](https://github.com/iced-rs/iced) GUI framework. It aims to provide a user-friendly interface for playing, visualizing, and analyzing the ancient board game of Go.
 
-This is an open task, where your creativity is the key element.
-Which language to choose? Your choice.
-If you pick Haskell, GUI is optional. Use your experience from Lab 10.
-You can focus on terminal interactions only, and the logic of the game if you want in Haskell.
-If you pick Rust, GUI would be expected with the use of `Iced.rs` library.
+Leveraging Rust's performance and safety, along with Iced's modern reactive design for desktop and web GUIs, the project integrates SGF file parsing, full rules enforcement (including Ko), and a basic AI opponent. Whether you're a beginner looking to explore Go or a developer interested in game AI and UI design, this project offers a rich and rewarding learning experience.
 
-# About Go
+
+## About Go
 
 [Go](<https://en.wikipedia.org/wiki/Go_(game)>) is an ancient board game that originated in China over 2,500 (some say 4000) years ago.
 It is played on a grid of 19x19 lines, where two players (Black and White) take turns placing stones on the intersections.
